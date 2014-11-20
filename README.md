@@ -11,7 +11,7 @@ Or just raise an issue here on GitHub with a new resource, a question or some ot
 
 You can always just email me at me@rachelandrew.co.uk if you want to send me some info and would rather not use GitHub.
 
-Please share this site or my initial blog post with people who might be caught by these rules and are currently unaware.
+Please share [this site](http://rachelandrew.github.io/eu-vat/) or my [initial blog post](http://rachelandrew.co.uk/archives/2014/10/13/the-horrible-implications-of-the-eu-vat-place-of-supply-change/) with people who might be caught by these rules and are currently unaware.
 
 ### Accountant or tax professional?
 
