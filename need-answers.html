@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="EU-VAT : The VAT rules are changing in January 2015. Help me collect information and resources to help micro-businesses that are caught up in the change.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>EU-VAT</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/rachelandrew/eu-vat">View on GitHub</a>
+
+          <h1 id="project_title">EU-VAT</h1>
+          <h2 id="project_tagline">The VAT rules are changing in January 2015. Help me collect information and resources to help micro-businesses that are caught up in the change.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/rachelandrew/eu-vat/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/rachelandrew/eu-vat/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Need answers</h3>
+
+        <p>A number of as yet unanswered questions, mostly about implementation. Please let me know if you spot an official response to any of these.</p>
+
+        <h4>How do we get "proof" of customer location?</h4>
+
+        <p>There are certain conditions under which we only need to gather one piece of evidence of customer location. However these "presumptions" are not going to apply to most web businesses. For us we need to supply two pieces of non-contradictory evidence of location. These can be:</p>
+
+        <ul>
+          <li>the billing address of the customer</li>
+          <li>the Internet Protocol (IP) address of the device used by the customer</li>
+          <li>location of the bank</li>
+          <li>the country code of SIM card used by the customer</li>
+          <li>the location of the customer’s fixed land line through which the service is supplied to him</li>
+          <li>other commercially relevant information (for example, product coding information which electronically links the sale to a particular jurisdiction)</li>
+        </ul>
+
+        <p>Most online stores can request a billing address and IP addresses can be obtained via the browser and a geocoding service used to get a country code. If the two match then we have our "proof".</p>
+
+        <p>The issue arises where these conflict, we need a second piece of proof.</p>
+
+        <p><strong>SIM Card</strong> and <strong>fixed landline</strong> data is not something available to us on the web platform.</p>
+
+        <p>Location of the bank requires that we actually take payment or at least pre-authorise payment to get this data back. We are then dependent on our provider in order to access this information. Some sellers will struggle to get this data.</p>
+
+        <p>Other commercially relevant information is vague.</p>
+
+        <p>It seems that this requirement has not been thought through in terms of standard web sales of downloadables. We need clear technical guidance in terms of what to do if there is a mismatch in the two pieces of information (one customer provided, one provided via their IP address/location of their computer).</p>
+
+        <h4>Can we allow customers to self-certify their location?</h4>
+
+        <p>In the above scenario of a mismatch of billing address and location, a possible resolution would be that when we detect this issue we show a screen explaining that due to VAT laws we need to verify the customer location. Ask them to clarify which location is their primary location (in a similar way to agree terms checkboxes work). </p>
+
+        <p>It seems that a lot of businesses are intending to use self certification of location. <a href="http://ebiz.pwc.com/wp-content/uploads/2014/11/2015-Impact-and-Readiness-survey_v7.pdf">See this PDF</a>.</p>
+
+
+        <h4>Do we need to hold this proof even where the customer appears to be outside of the EU, or in our own country?</h4>
+
+        <p>Do we have to hold this proof for every one of our customers even if they initially give a billing address that is outside of the EU. What happens if at some point the US government become concerned at the huge amount of data EU businesses are holding about consumers for ten years?</p>
+
+        <p>What proof needs to be kept by people who choose to block EU Sales?</p>
+
+        <h4>How do we display pricing information when the amount of VAT added effectively changes the price?</h4>
+
+        <p>Anyone whose business has them selling predominently to consumers needs to display prices inclusive of VAT. This is consumer law in the UK I believe (I'm not an expert). The legislation therefore will force sellers to pick a VAT rate for display of products. I imagine that this will result in people assuming the highest rate of VAT when pricing products in order not to have to swallow the fluctuations themselves.</p>
+
+        <p>In particular if this legislation is to be increased to apply to physical goods as well we will need to have consumer law addressed so that prices may be shown excluding VAT for online sales. This would take us to the system in the US where tax is calculated at checkout according to State laws.</p>
+       
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">EU-VAT maintained by <a href="https://github.com/rachelandrew">rachelandrew</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
