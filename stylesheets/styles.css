@@ -38,6 +38,10 @@ a {
   text-decoration:none;
 }
 
+h1 a {
+  color: #fff;
+}
+
 a small {
   font-size:11px;
   color:#777;
