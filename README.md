@@ -1,6 +1,8 @@
 eu-vat
 ======
 
+**This site is no longer up to date. PLease seek more information from current sources.**
+
 The VAT rules are changing in January 2015. Help me collect information and resources to help micro-businesses that are caught up in the change.
 
 ### How to help
